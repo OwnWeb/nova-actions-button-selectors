@@ -53,7 +53,7 @@
                             <slot name="sr-only">
                                 <span class="sr-only">{{ __('Standalone Actions') }}</span>
                             </slot>
-                            <Button variant="action" icon="ellipsis-horizontal" :dusk="`${resource.id.value}-control-selector`" />
+                            <Button variant="action" icon="ellipsis-horizontal" :dusk="`standalone-action-control-selector`" />
                         </div>
                     </template>
 
